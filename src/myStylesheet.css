@@ -4,7 +4,6 @@ body {
 }
 ul {
   list-style-type: none;
-  text-align: justify;
   overflow: hidden;
   background: black;
   margin-top: 0%;
@@ -15,7 +14,7 @@ li{
     float: left;
 }
 li a{
-    text-decoration:none;
+    text-decoration:tomato;
     display:block;
     color:white;
     text-align:center;
@@ -51,4 +50,14 @@ li a:hover {
     padding:15px;
     padding-bottom:20%;
     margin-right:0%;
+}
+#footer{
+    background:rgb(175, 173, 173);
+    text-align:right;
+    margin:0%;
+    padding:0%;
+}
+#footer p{
+    margin:0%;
+    padding:2%;
 }
